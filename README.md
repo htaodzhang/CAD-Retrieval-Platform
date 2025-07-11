@@ -4,7 +4,11 @@ This is a professional CAD engineering model retrieval system developed based on
 
 这是一个基于PyQt5和PythonOCC开发的专业CAD工程模型检索系统，主要功能是通过特征文件(.npy)比对实现三维模型的智能搜索。系统支持STEP格式文件。
 
-![image-20250711220913005](C:\Users\su\AppData\Roaming\Typora\typora-user-images\image-20250711220913005.png)
+![image-20250701095628547](https://github.com/BrepMaster/CAD-Retrieval-Platform/raw/main/1.png)
+
+📦 Download (Windows EXE version):
+链接: https://pan.baidu.com/s/1Zlv-a_pnKLEtgZ8jZM9IzA?pwd=ab8a
+提取码: ab8a
 
 **温馨提示**
 如果本项目对您有所帮助，欢迎点击右上角⭐Star支持！
