@@ -7,8 +7,8 @@ This is a professional CAD engineering model retrieval system developed based on
 ![image-20250701095628547](https://github.com/BrepMaster/CAD-Retrieval-Platform/raw/main/1.png)
 
 📦 Download (Windows EXE version):
-链接: https://pan.baidu.com/s/1Zlv-a_pnKLEtgZ8jZM9IzA?pwd=ab8a
-提取码: ab8a
+链接: https://pan.baidu.com/s/1oQWJKhaPSPTZyjEarlTI3g?pwd=n9ue 
+提取码: n9ue
 
 **温馨提示**
 如果本项目对您有所帮助，欢迎点击右上角⭐Star支持！
