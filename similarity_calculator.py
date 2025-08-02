@@ -10,7 +10,13 @@ def l2_normalize(features):
     features_c /= np.sqrt((features_c * features_c).sum(axis=1))[:, None]
     return features_c
 
-
+def distance_to_similarity(distance):
+    # 距离归一化后，距离越小越相似
+    # similarity = 1 - distance
+    similarity = distance
+    # 保证在0~1之间
+    similarity = np.clip(similarity, 0, 1)
+    return similarity * 100  # 百分比
 def compute_distance(x, y, l2=True):
     if l2:
         x = l2_normalize(x)
@@ -84,9 +90,11 @@ def process_query(x, database_input, folder_path, is_single_file=True):
     result_paths = []
     result_scores = []
 
+
     for i in range(len(retrieval_path)):
         path = retrieval_path[index[0][i]]
+        sim_percent = distance_to_similarity(score[0][i])
         result_paths.append(path)
-        result_scores.append(float(score[0][i]))
+        result_scores.append(float(sim_percent))
 
     return result_paths, result_scores
